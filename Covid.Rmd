@@ -1,0 +1,112 @@
+---
+title: "Covid"
+author: "Priyanka Divi"
+date: "2024-02-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown for Covid Project
+
+
+```{r covid}
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+if (!require(tidyverse)) {
+  install.packages("tidyverse")
+}
+install.packages("tidyverse")
+library(tidyverse)
+url_in <- "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/"
+file_names <- c("time_series_covid19_confirmed_US.csv",  "time_series_covid19_confirmed_global.csv", "time_series_covid19_deaths_US.csv",  "time_series_covid19_deaths_global.csv")
+urls <- str_c(url_in,file_names)
+global_cases <- read_csv(urls[1])
+global_deaths <- read_csv(urls[2])
+US_cases <- read_csv(urls[3])
+US_deaths <- read_csv(urls[4])
+global_cases
+global_cases <- global_cases %>%
+    pivot_longer(cols = -(UID:Combined_Key),
+    names_to = "date",
+    values_to = "cases") %>%
+    select(Admin2:cases) %>%
+    mutate(date = mdy(date)) %>%
+    select(-c(Lat,Long_))
+global_cases
+global_deaths
+global_deaths <- global_deaths %>% 
+      pivot_longer(cols =-c(`Province/State`,`Country/Region`,Lat, Long), 
+                   names_to =  "date",values_to = "deaths") %>%
+      mutate(date = mdy(date)) %>%
+      select(-c(Lat,Long))
+library(lubridate)
+global_deaths <- rename(global_deaths, Province_State = `Province/State`)
+global_deaths <- rename(global_deaths, Country_Region = `Country/Region`)
+global <- full_join(global_cases, global_deaths, by = c("Province_State", "Country_Region", "date"))
+global
+summary(global)
+global <- global %>% filter(cases > 0)
+summary(global)
+
+US_deaths <- US_deaths %>%
+    pivot_longer(cols =-c(`Province/State`,`Country/Region`,Lat, Long),
+    names_to = "date",values_to = "deaths") %>%
+    mutate(date = mdy(date)) %>%
+    select(-c(Lat,Long))
+US_deaths
+US_deaths <- rename(US_deaths, Province_State = `Province/State`)
+US_deaths <- rename(US_deaths, Country_Region = `Country/Region`)
+US_deaths
+
+US_cases <- US_cases %>%
+	pivot_longer(cols = -(UID:Combined_Key),
+		names_to = "date",
+		values_to = "cases") %>%
+	select(Admin2:cases) %>%
+	mutate(date = mdy(date)) %>%
+	select(-c(Lat,Long_))
+
+US_cases
+
+US <- full_join(US_cases, US_deaths, by = c("Province_State", "Country_Region", "date"))
+US
+
+US <- US %>% filter(cases > 0)
+
+library(ggplot2)
+
+# Visualization 1: Time series plot for global and US COVID-19 cases
+ggplot() +
+  geom_line(data = global, aes(x = date, y = cases, color = "Global")) +
+  geom_line(data = US, aes(x = date, y = cases, color = "US")) +
+  labs(title = "COVID-19 Cases Over Time",
+       x = "Date",
+       y = "Number of Cases",
+       color = "Region") +
+  theme_minimal()
+
+# Time series plot for COVID-19 cases over time for the selected country (US)
+ggplot(global, aes(x = date, y = cases)) +
+  geom_line() +
+  labs(title = "COVID-19 Cases Over Time",
+       x = "Date",
+       y = "Number of Cases") +
+  theme_minimal()
+
+# Model : Fit linear regression model
+global$date <- as.numeric(global$date)
+model <- lm(cases ~ date, data = global)
+summary(model)
+
+```
+
+## Possible Bias
+In a COVID-19 project, bias could occur in various forms depending on the data sources, methodologies, and interpretations used. Below are few potential chances of bias
+Sampling Bias: If the data collected is not representative of the entire population, it can introduce sampling bias. For example, if testing is only conducted on symptomatic individuals, the reported case numbers may not accurately reflect the true prevalence of the virus in the population.
+Reporting Bias: Differences in how data is reported across regions or countries can lead to reporting bias. For instance, variations in testing protocols, healthcare infrastructure, and government policies can influence the accuracy and completeness of reported data.
+Demographic Bias: Certain demographic groups may be disproportionately affected by COVID-19 due to factors such as age, gender, socioeconomic status, and access to healthcare. Failing to account for these factors can result in biased analyses and interpretations.
+It's crucial to acknowledge and address these potential biases in COVID-19 project to ensure the reliability, validity, and ethical integrity of the research findings. Transparency about the limitations and uncertainties associated with the data and analyses is essential for responsible scientific communication.
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
