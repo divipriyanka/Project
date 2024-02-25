@@ -1,0 +1,267 @@
+---
+title: "NYPD Shooting Incident Data Report"
+author: "PD"
+date: "2024-02-24"
+output:
+  
+  pdf_document: default
+  html_document: default
+---
+
+## Analysis
+
+The NYC shooting incident data was collected from [data.gov](https://catalog.data.gov/dataset/nypd-shooting.incident-data-historic). This report helps us to understand the trends in crime in NYC from 2006 to 2022. Furthermore, it will help the following two groups:
+
+1. NYC residents - Safety is the top priority for residents.
+    - If residents are informed in advance about the locations to avoid, the hours to avoid, and the        people to be careful of, they will make better choices.
+    - They will help their family members and friends by spreading awareness.
+    
+2. The law enforcement team, NYPD - Reducing the crime rate will be the top priority for them.
+    - They will understand which specific Precinct has the most crimes.
+    - They will understand what time of the day these incidents are occurring.
+    - They will be able to narrow their focus on real problems.
+    - They will be able to reduce the crime rates significantly.
+
+## Observations - High level
+1. Two Boroughs, namely Brooklyn, Bronx were found to have the most incidents.
+2. When we look into Brooklyn, there are less than 5 Precincts where the crime is most.
+3. Incidents are more common during the nights.
+4. More incidents happen on Saturday and Sunday when compared to other days.
+5. When we look at the demographics + The race Black, between the age of 18 and 44 committed most
+   crimes. + The most victims were the race Black between the age of 18 and 44.
+
+## Common functions
+1. Data can come from various sources and it could be various types, size and shapes.
+2. There could have null values, unknown values, NA, etc. In order to do good analysis we need to
+tidy/clean the data.
+3. Common and reusable functions will help all the team members (as it was described in Airbnb scenario)
+
+
+## Step-1 Identify and import the data
+I will start by reading in the data from the main csv files.
+
+```{r NYPD1}
+
+url_NYPD <- "https://data.cityofnewyork.us/api/views/833y-fsy8/rows.csv?accessType=DOWNLOAD"
+NYPD <- read.csv(url_NYPD)
+
+```
+
+## Step-2 Cleaning the data
+Now, cleaning the data and visualize
+```{r NYPD2} 
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+if (!require(tidyverse)) {
+  install.packages("tidyverse")
+}
+install.packages("tidyverse")
+library(tidyverse)
+library(caret)
+library(dplyr)
+library(lubridate) # If you're using mdy() and hms() functions
+
+# Set up chunk options
+knitr::opts_chunk$set(echo = TRUE)
+
+NYPD_clean <- NYPD %>%
+  select(c("OCCUR_DATE","OCCUR_TIME","BORO","PRECINCT","STATISTICAL_MURDER_FLAG","VIC_AGE_GROUP",
+           "VIC_SEX","VIC_RACE")) %>%
+  mutate(OCCUR_DATE = mdy(OCCUR_DATE),
+        OCCUR_TIME = hms(OCCUR_TIME),
+        STATISTICAL_MURDER_FLAG = as.logical(STATISTICAL_MURDER_FLAG),
+        Shootings = 1,
+        Year = year(OCCUR_DATE))
+        NYPD_clean %>%
+        ggplot(aes(x = BORO, fill = BORO)) +
+        geom_bar() +
+        labs(title = "NYPD Shootings Incidents by Borough",
+        subtitle = "(2006 - 2021)",
+        x = "NYC Boroughs",
+        y = "Total Number of Shootings",
+        caption = "(Figure - 1)")
+
+NYPD_clean %>%
+        ggplot(aes(x = Year)) +
+        geom_bar(fill = "lightblue",show.legend = FALSE) +
+        labs(title = "NYPD Shootings Incidents by Year",
+        x = "Years (2006 - 2021)",
+        y = "Total Number of Shootings",
+        caption = "(Figure - 2)")
+
+```
+
+##  Step-3 Analyze and Visulize data
+```{r NYPD3}
+NYPD_year <- NYPD_clean %>%
+        group_by(Year) %>%
+        summarize(Shootings = sum(Shootings))
+
+NYPD_year %>%
+        ggplot(aes(x = as.factor(Year), y = Shootings)) +
+        geom_line() +
+        geom_point(color = "red") +
+        scale_x_discrete(labels = as.character(2006:2021)) +
+        labs(
+        title = "NYPD Shooting Incidents by Year",
+        x = "Years (2006 - 2021)",
+        y = "Total Number of Shootings",
+        caption = "(Figure - 3)"
+        )
+
+NYPD_boro <- NYPD_clean %>%
+        group_by(BORO, OCCUR_DATE,Shootings) %>%
+        summarize(Shootings = sum(Shootings),
+        STATISTICAL_MURDER_FLAG = sum(STATISTICAL_MURDER_FLAG),
+        .groups = 'drop') %>%
+        select(BORO,OCCUR_DATE,Shootings,STATISTICAL_MURDER_FLAG) %>%
+        ungroup()
+
+NYPD_boro_year <- NYPD_clean %>%
+        mutate(Year = year(OCCUR_DATE)) %>%
+        group_by(BORO, Year, Shootings) %>%
+        summarize(Shootings = sum(Shootings),
+        STATISTICAL_MURDER_FLAG = sum(STATISTICAL_MURDER_FLAG),
+        .groups = 'drop') %>%
+        select(BORO, Year,Shootings,STATISTICAL_MURDER_FLAG) %>%
+        ungroup()
+
+NYPD_boro_total <- NYPD_boro_year %>%
+        group_by(BORO) %>%
+        summarize(Shootings = sum(Shootings))
+
+(7402 + 10365)/ sum(NYPD_boro_total$Shootings)
+
+736/ sum(NYPD_boro_total$Shootings)
+
+NYPD_boro_year %>%
+        ggplot(aes(x = Year, y = Shootings,color = BORO)) +
+        geom_line() +
+        geom_point() +
+        labs(title = "NYPD Shootings by Borough by Year",
+        subtitle = "(2006 - 2021)",
+        x = "Year",
+        y = "Number of Shootings",
+        caption = "(Figure - 4)")
+
+NYPD_boro <- NYPD_clean %>%
+        group_by(BORO, OCCUR_DATE, Shootings) %>%
+        summarize(Shootings = sum(Shootings),
+        STATISTICAL_MURDER_FLAG = sum(STATISTICAL_MURDER_FLAG),
+        .groups = 'drop') %>%
+        select(BORO, OCCUR_DATE, Shootings, STATISTICAL_MURDER_FLAG) %>%
+        ungroup()
+
+NYPD_boro %>%
+        ggplot(aes(x = OCCUR_DATE, y = Shootings)) +
+        geom_line() +
+        scale_x_date(date_labels = "%Y %b") +
+        labs(title = "NYPD Shootings Per Day",
+        subtitle = "(2006 - 2021)",
+        x = "Date",
+        y = "Shootings per day",
+        caption = "(Figure - 5)")
+
+```
+
+
+## NYPD Shootings Per Day
+(2006 - 2021)
+```{r NYPD4}
+NYPD_time_year <- NYPD_clean %>%
+        mutate(Time_year = format(as.Date(OCCUR_DATE), "%m/%d")) %>%
+        mutate(Time_year = as.Date(Time_year,"%m/%d")) %>%
+        group_by(Time_year,Shootings) %>%
+        summarize(Shootings = sum(Shootings),
+        STATISTICAL_MURDER_FLAG = sum(STATISTICAL_MURDER_FLAG),
+        .groups = 'drop') %>%
+        select(Time_year,Shootings,STATISTICAL_MURDER_FLAG) %>%
+        ungroup()
+
+NYPD_time_year %>% slice_max(Shootings, n = 2)
+
+NYPD_July_5 <- NYPD_clean %>%
+        mutate(Time_year = format(as.Date(OCCUR_DATE), "%m/%d"),
+        Hour = hour(OCCUR_TIME)) %>%
+        mutate(Time_year = as.Date(Time_year,"%m/%d")) %>%
+        filter(Time_year == "2022-07-05") %>%
+        group_by(Hour,Shootings) %>%
+        summarize(Shootings = sum(Shootings),
+        .groups = 'drop')
+
+NYPD_time_year %>%
+        ggplot(aes(x = Time_year, y = Shootings)) +
+        geom_line() +
+        geom_point(data = NYPD_time_year %>% slice_max(Shootings, n = 2),
+        aes(color="Most Shootings")) +
+        scale_x_date(date_labels = "%b") +
+        labs(title = "NYPD Shootings on that Day",
+        subtile = "(2006 - 2021)",
+        colour = "",
+        x = "Day",
+        y = "Shootings on that day",
+        caption = "(Figure - 6)")
+```
+```{r NYPD5}
+
+NYPD_time_day <- NYPD_clean %>%
+        group_by(OCCUR_TIME,Shootings) %>%
+        summarize(Shootings = sum(Shootings),
+        STATISTICAL_MURDER_FLAG = sum(STATISTICAL_MURDER_FLAG),
+        .groups = 'drop') %>%
+        select(OCCUR_TIME,Shootings,STATISTICAL_MURDER_FLAG)
+
+NYPD_time_day %>%
+        ggplot(aes(x = OCCUR_TIME, y = Shootings)) +
+        geom_line() +
+        scale_x_time() +
+        labs(title = "NYPD Shootings by the Time of Day",
+        subtitle = "(2006 - 2021)",
+        x = "Time of day (24 Hour Time System)",
+        y = "Shootings",
+        caption = "(Figure - 7)")
+
+NYPD_time_hour <- NYPD_clean %>%
+        mutate(Hour = hour(OCCUR_TIME)) %>%
+        group_by(Hour,Shootings) %>%
+        summarize(Shootings = sum(Shootings),
+        STATISTICAL_MURDER_FLAG = sum(STATISTICAL_MURDER_FLAG),
+        .groups = 'drop') %>%
+        mutate(Hour2 = Hour^2) %>%
+        select(Hour,Shootings,STATISTICAL_MURDER_FLAG, Hour2)
+
+```
+
+
+## Step-4 Choose model
+
+We use linear regression model to predict NYPD Shootings by Time of Day Per Hour
+
+```{r NYPD6}
+NYPD_time_hour_model <- lm(data = NYPD_time_hour, Shootings ~ Hour + Hour2)
+        summary(NYPD_time_hour_model)
+
+NYPD_time_hour %>%
+        ggplot(aes(x = Hour, y = Shootings)) +
+        geom_point() +
+        stat_smooth(method = "lm", formula = y ~ x + I(x^2), linewidth = 1) +
+        labs(title = "NYPD Shootings by Time of Day per Hour",
+        subtitle = "(2006-2021)",
+        x = " Hours (24 Hour Time System)",
+        y = "Shootings that Hour",
+        caption = "(Figure - 8)")
+
+```
+
+
+## Bias Identification
+Professor Jane Wall, rightly mentioned that Biases are natural. Everyone falls into its trap. While looking at the initial data I might have some implicit bias such as stereotypes.
+Implicit bias refers to the attitudes or stereotypes that affect our understanding, actions, and decisions in an unconscious manner. An implicit bias can make us susceptible to unintentionally acting in ways that are inconsistent with our values. Implicit bias can be based on stereotypes.
+A stereotype is a generalized belief about a particular category of people. It is an expectation that people might have about every person of a particular group. The type of expectation can vary; it can be, for example, an expectation about the group’s personality, preferences, appearance or ability. Stereotypes are sometimes overgeneralized, inaccurate, and resistant to new information, but can sometimes be accurate.
+
+## Biases - How to overcome
+To overcome implicit biases, we need to thoroughly analyze the data and our report has to be based on facts in the data and not based on our emotions and biases.
+
+References https://researchguides.library.syr.edu/
+
+
+
