@@ -1,0 +1,897 @@
+date1,datetime,cash_type,card,money,coffee_name
+March,March  10:15:51 AM,card,ANON-0000-0000-0001,38.7,Latte
+March,March  12:19:23 PM,card,ANON-0000-0000-0002,38.7,Hot Chocolate
+March,March  12:20:18 PM,card,ANON-0000-0000-0002,38.7,Hot Chocolate
+March,March  1:46:33 PM,card,ANON-0000-0000-0003,28.9,Americano
+March,March  1:48:15 PM,card,ANON-0000-0000-0004,38.7,Latte
+March,March  3:39:48 PM,card,ANON-0000-0000-0005,33.8,Americano with Milk
+March,March  4:19:03 PM,card,ANON-0000-0000-0006,38.7,Hot Chocolate
+March,March  6:39:04 PM,card,ANON-0000-0000-0007,33.8,Americano with Milk
+March,March  7:22:02 PM,card,ANON-0000-0000-0008,38.7,Cocoa
+March,March  7:23:16 PM,card,ANON-0000-0000-0008,33.8,Americano with Milk
+March,March  7:29:17 PM,card,ANON-0000-0000-0009,33.8,Americano with Milk
+March,March  10:15:51 AM,card,ANON-0000-0000-0010,28.9,Americano
+March,March  12:19:23 PM,cash,,40,Latte
+March,March  12:20:18 PM,card,ANON-0000-0000-0011,33.8,Americano with Milk
+March,March  1:46:33 PM,card,ANON-0000-0000-0012,33.8,Americano with Milk
+March,March  1:48:15 PM,card,ANON-0000-0000-0013,28.9,Americano
+March,March  3:39:48 PM,card,ANON-0000-0000-0014,33.8,Americano with Milk
+March,March  4:19:03 PM,card,ANON-0000-0000-0004,28.9,Americano
+March,March  6:39:04 PM,cash,,40,Latte
+March,March  7:22:02 PM,card,ANON-0000-0000-0015,38.7,Latte
+March,March  7:23:16 PM,card,ANON-0000-0000-0016,28.9,Cortado
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,28.9,Americano
+March,March  10:15:51 AM,card,ANON-0000-0000-0017,38.7,Hot Chocolate
+March,March  12:19:23 PM,card,ANON-0000-0000-0018,38.7,Cocoa
+March,March  12:20:18 PM,card,ANON-0000-0000-0019,28.9,Cortado
+March,March  1:46:33 PM,card,ANON-0000-0000-0020,33.8,Americano with Milk
+March,March  1:48:15 PM,card,ANON-0000-0000-0020,33.8,Americano with Milk
+March,March  3:39:48 PM,card,ANON-0000-0000-0020,38.7,Hot Chocolate
+March,March  4:19:03 PM,card,ANON-0000-0000-0001,38.7,Latte
+March,March  6:39:04 PM,card,ANON-0000-0000-0021,38.7,Latte
+March,March  7:22:02 PM,card,ANON-0000-0000-0012,33.8,Americano with Milk
+March,March  7:23:16 PM,card,ANON-0000-0000-0022,24,Espresso
+March,March  7:29:17 PM,card,ANON-0000-0000-0001,38.7,Latte
+March,March  7:29:17 PM,card,ANON-0000-0000-0023,38.7,Latte
+March,March  7:29:17 PM,card,ANON-0000-0000-0024,38.7,Latte
+March,March  7:29:17 PM,card,ANON-0000-0000-0025,38.7,Hot Chocolate
+March,March  7:29:17 PM,card,ANON-0000-0000-0026,38.7,Cocoa
+March,March  7:29:17 PM,card,ANON-0000-0000-0027,38.7,Hot Chocolate
+March,March  7:29:17 PM,card,ANON-0000-0000-0009,38.7,Hot Chocolate
+March,March  7:29:17 PM,card,ANON-0000-0000-0028,28.9,Cortado
+March,March  7:29:17 PM,card,ANON-0000-0000-0028,38.7,Hot Chocolate
+March,March  7:29:17 PM,cash,,35,Americano with Milk
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,28.9,Americano
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,28.9,Cortado
+March,March  7:29:17 PM,card,ANON-0000-0000-0029,38.7,Cappuccino
+March,March  7:29:17 PM,card,ANON-0000-0000-0029,38.7,Cappuccino
+March,March  7:29:17 PM,cash,,40,Latte
+March,March  7:29:17 PM,card,ANON-0000-0000-0030,38.7,Hot Chocolate
+March,March  7:29:17 PM,card,ANON-0000-0000-0031,38.7,Latte
+March,March  7:29:17 PM,cash,,40,Latte
+March,March  7:29:17 PM,card,ANON-0000-0000-0032,28.9,Americano
+March,March  7:29:17 PM,card,ANON-0000-0000-0033,33.8,Americano with Milk
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,28.9,Cortado
+March,March  7:29:17 PM,card,ANON-0000-0000-0034,38.7,Cappuccino
+March,March  7:29:17 PM,card,ANON-0000-0000-0035,28.9,Americano
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,28.9,Americano
+March,March  7:29:17 PM,card,ANON-0000-0000-0033,28.9,Americano
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,33.8,Americano with Milk
+March,March  7:29:17 PM,card,ANON-0000-0000-0036,38.7,Latte
+March,March  7:29:17 PM,card,ANON-0000-0000-0037,38.7,Latte
+March,March  7:29:17 PM,cash,,40,Hot Chocolate
+March,March  8:29:17 PM,card,ANON-0000-0000-0038,24,Espresso
+March,March  10:15:51 AM,card,ANON-0000-0000-0039,28.9,Americano
+March,March  12:19:23 PM,card,ANON-0000-0000-0012,38.7,Cappuccino
+March,March  12:20:18 PM,card,ANON-0000-0000-0040,28.9,Americano
+March,March  1:46:33 PM,card,ANON-0000-0000-0040,28.9,Americano
+March,March  1:48:15 PM,card,ANON-0000-0000-0041,38.7,Latte
+March,March  3:39:48 PM,card,ANON-0000-0000-0042,33.8,Americano with Milk
+March,March  4:19:03 PM,card,ANON-0000-0000-0043,28.9,Cortado
+March,March  6:39:04 PM,card,ANON-0000-0000-0043,38.7,Cappuccino
+March,March  7:22:02 PM,card,ANON-0000-0000-0009,33.8,Americano with Milk
+March,March  7:23:16 PM,card,ANON-0000-0000-0044,38.7,Hot Chocolate
+March,March  7:29:17 PM,card,ANON-0000-0000-0009,38.7,Cappuccino
+March,March  10:15:51 AM,card,ANON-0000-0000-0009,38.7,Hot Chocolate
+March,March  12:19:23 PM,cash,,30,Americano
+March,March  12:20:18 PM,cash,,35,Americano with Milk
+March,March  1:46:33 PM,cash,,40,Latte
+March,March  1:48:15 PM,card,ANON-0000-0000-0045,24,Espresso
+March,March  3:39:48 PM,cash,,35,Americano with Milk
+March,March  4:19:03 PM,card,ANON-0000-0000-0046,38.7,Latte
+March,March  6:39:04 PM,card,ANON-0000-0000-0046,28.9,Cortado
+March,March  7:22:02 PM,cash,,40,Latte
+March,March  7:23:16 PM,cash,,40,Cappuccino
+March,March  7:29:17 PM,cash,,30,Cortado
+March,March  10:15:51 AM,cash,,30,Americano
+March,March  12:19:23 PM,card,ANON-0000-0000-0035,38.7,Cappuccino
+March,March  12:20:18 PM,card,ANON-0000-0000-0047,28.9,Americano
+March,March  1:46:33 PM,card,ANON-0000-0000-0047,38.7,Latte
+March,March  1:48:15 PM,card,ANON-0000-0000-0048,28.9,Cortado
+March,March  3:39:48 PM,cash,,40,Latte
+March,March  4:19:03 PM,card,ANON-0000-0000-0033,28.9,Americano
+March,March  6:39:04 PM,card,ANON-0000-0000-0033,28.9,Cortado
+March,March  7:22:02 PM,card,ANON-0000-0000-0049,38.7,Hot Chocolate
+March,March  7:23:16 PM,card,ANON-0000-0000-0004,33.8,Americano with Milk
+March,March  7:29:17 PM,card,ANON-0000-0000-0004,28.9,Americano
+March,March  7:45:17 PM,card,ANON-0000-0000-0050,28.9,Americano
+March,March  7:45:17 PM,card,ANON-0000-0000-0048,38.7,Hot Chocolate
+March,March  7:45:17 PM,card,ANON-0000-0000-0004,28.9,Americano
+March,March  7:45:17 PM,card,ANON-0000-0000-0051,28.9,Americano
+March,March  7:29:17 PM,card,ANON-0000-0000-0051,28.9,Americano
+March,March  7:29:17 PM,cash,,25,Espresso
+March,March  8:34:17 PM,card,ANON-0000-0000-0052,33.8,Americano with Milk
+March,March  8:34:17 PM,card,ANON-0000-0000-0053,24,Espresso
+March,March  8:34:17 PM,card,ANON-0000-0000-0053,24,Espresso
+March,March  8:34:17 PM,card,ANON-0000-0000-0054,24,Espresso
+March,March  7:29:17 PM,cash,,40,Latte
+March,March  7:29:17 PM,card,ANON-0000-0000-0055,38.7,Latte
+March,March  3:39:48 PM,card,ANON-0000-0000-0055,38.7,Hot Chocolate
+March,March  4:19:03 PM,card,ANON-0000-0000-0012,28.9,Cortado
+March,March  6:39:04 PM,card,ANON-0000-0000-0012,28.9,Americano
+March,March  7:22:02 PM,card,ANON-0000-0000-0056,33.8,Americano with Milk
+March,March  7:23:16 PM,card,ANON-0000-0000-0057,24,Espresso
+March,March  7:29:17 PM,card,ANON-0000-0000-0058,38.7,Latte
+March,March  7:45:17 PM,card,ANON-0000-0000-0059,33.8,Americano with Milk
+March,March  7:45:17 PM,card,ANON-0000-0000-0050,24,Espresso
+March,March  7:45:17 PM,card,ANON-0000-0000-0019,38.7,Hot Chocolate
+March,March  7:45:17 PM,card,ANON-0000-0000-0012,28.9,Cortado
+March,March  7:29:17 PM,cash,,40,Latte
+March,March  7:29:17 PM,card,ANON-0000-0000-0060,38.7,Hot Chocolate
+March,March  8:34:17 PM,card,ANON-0000-0000-0012,28.9,Americano
+March,March  8:34:17 PM,card,ANON-0000-0000-0061,33.8,Americano with Milk
+March,March  8:34:17 PM,card,ANON-0000-0000-0061,28.9,Americano
+March,March  8:34:17 PM,card,ANON-0000-0000-0009,28.9,Cortado
+March,March  7:29:17 PM,card,ANON-0000-0000-0009,28.9,Cortado
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,28.9,Cortado
+March,March  3:39:48 PM,card,ANON-0000-0000-0062,33.8,Americano with Milk
+March,March  4:19:03 PM,cash,,40,Latte
+March,March  6:39:04 PM,card,ANON-0000-0000-0063,28.9,Cortado
+March,March  7:22:02 PM,card,ANON-0000-0000-0064,28.9,Cortado
+March,March  7:23:16 PM,card,ANON-0000-0000-0003,28.9,Americano
+March,March  7:29:17 PM,card,ANON-0000-0000-0003,28.9,Americano
+March,March  7:45:17 PM,card,ANON-0000-0000-0003,28.9,Americano
+March,March  7:45:17 PM,cash,,30,Cortado
+March,March  7:45:17 PM,card,ANON-0000-0000-0065,38.7,Latte
+March,March  7:45:17 PM,card,ANON-0000-0000-0065,38.7,Latte
+March,March  7:29:17 PM,card,ANON-0000-0000-0049,38.7,Hot Chocolate
+March,March  7:29:17 PM,card,ANON-0000-0000-0066,33.8,Americano with Milk
+March,March  8:34:17 PM,cash,,40,Hot Chocolate
+March,March  8:34:17 PM,card,ANON-0000-0000-0012,28.9,Cortado
+March,March  8:34:17 PM,cash,,40,Latte
+March,March  8:34:17 PM,card,ANON-0000-0000-0049,28.9,Cortado
+March,March  7:29:17 PM,card,ANON-0000-0000-0067,38.7,Cappuccino
+March,March  7:29:17 PM,card,ANON-0000-0000-0050,38.7,Cocoa
+March,March  3:39:48 PM,card,ANON-0000-0000-0068,38.7,Latte
+March,March  4:19:03 PM,cash,,40,Cappuccino
+March,March  6:39:04 PM,card,ANON-0000-0000-0012,28.9,Cortado
+March,March  7:22:02 PM,card,ANON-0000-0000-0012,38.7,Cappuccino
+March,March  7:23:16 PM,cash,,30,Americano
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,28.9,Cortado
+March,March  7:45:17 PM,card,ANON-0000-0000-0069,38.7,Latte
+March,March  7:45:17 PM,card,ANON-0000-0000-0070,33.8,Americano with Milk
+March,March  7:45:17 PM,card,ANON-0000-0000-0071,33.8,Americano with Milk
+March,March  7:45:17 PM,cash,,40,Cappuccino
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,28.9,Americano
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,24,Espresso
+March,March  8:34:17 PM,card,ANON-0000-0000-0050,28.9,Americano
+March,March  8:34:17 PM,card,ANON-0000-0000-0072,38.7,Latte
+March,March  8:34:17 PM,card,ANON-0000-0000-0073,33.8,Americano with Milk
+March,March  8:34:17 PM,card,ANON-0000-0000-0074,38.7,Cappuccino
+March,March  7:29:17 PM,card,ANON-0000-0000-0074,38.7,Cocoa
+March,March  7:29:17 PM,card,ANON-0000-0000-0075,33.8,Americano with Milk
+March,March  3:39:48 PM,card,ANON-0000-0000-0076,38.7,Latte
+March,March  4:19:03 PM,card,ANON-0000-0000-0076,33.8,Americano with Milk
+March,March  6:39:04 PM,card,ANON-0000-0000-0009,28.9,Cortado
+March,March  7:22:02 PM,cash,,40,Latte
+March,March  7:23:16 PM,card,ANON-0000-0000-0077,38.7,Latte
+March,March  7:29:17 PM,card,ANON-0000-0000-0009,38.7,Latte
+March,March  7:45:17 PM,cash,,35,Americano with Milk
+March,March  7:45:17 PM,card,ANON-0000-0000-0078,38.7,Latte
+March,March  7:45:17 PM,card,ANON-0000-0000-0017,38.7,Latte
+March,March  7:45:17 PM,card,ANON-0000-0000-0024,33.8,Americano with Milk
+March,March  7:29:17 PM,card,ANON-0000-0000-0079,38.7,Cappuccino
+March,March  7:29:17 PM,card,ANON-0000-0000-0055,38.7,Cocoa
+March,March  8:34:17 PM,card,ANON-0000-0000-0055,38.7,Latte
+March,March  8:34:17 PM,card,ANON-0000-0000-0080,38.7,Latte
+March,March  8:34:17 PM,card,ANON-0000-0000-0009,28.9,Cortado
+March,March  8:34:17 PM,card,ANON-0000-0000-0003,28.9,Americano
+March,March  7:29:17 PM,card,ANON-0000-0000-0032,28.9,Cortado
+March,March  7:29:17 PM,card,ANON-0000-0000-0059,28.9,Cortado
+March,March  7:22:02 PM,card,ANON-0000-0000-0050,28.9,Americano
+March,March  7:23:16 PM,card,ANON-0000-0000-0081,38.7,Latte
+March,March  7:29:17 PM,card,ANON-0000-0000-0024,38.7,Latte
+March,March  7:45:17 PM,card,ANON-0000-0000-0009,38.7,Hot Chocolate
+March,March  7:45:17 PM,card,ANON-0000-0000-0003,28.9,Cortado
+March,March  7:45:17 PM,card,ANON-0000-0000-0003,33.8,Americano with Milk
+March,March  7:45:17 PM,card,ANON-0000-0000-0082,33.8,Americano with Milk
+March,March  7:29:17 PM,card,ANON-0000-0000-0083,38.7,Hot Chocolate
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,38.7,Cappuccino
+March,March  8:34:17 PM,card,ANON-0000-0000-0012,28.9,Americano
+March,March  8:34:17 PM,card,ANON-0000-0000-0084,28.9,Cortado
+March,March  8:34:17 PM,cash,,40,Latte
+March,March  8:34:17 PM,card,ANON-0000-0000-0085,28.9,Cortado
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,28.9,Cortado
+March,March  7:29:17 PM,card,ANON-0000-0000-0012,28.9,Americano
+March,March  3:39:48 PM,card,ANON-0000-0000-0086,38.7,Latte
+March,March  4:19:03 PM,card,ANON-0000-0000-0087,38.7,Latte
+March,March  6:39:04 PM,card,ANON-0000-0000-0088,38.7,Cappuccino
+March,March  7:22:02 PM,card,ANON-0000-0000-0088,38.7,Cappuccino
+March,March  7:23:16 PM,cash,,40,Cappuccino
+March,March  7:29:17 PM,card,ANON-0000-0000-0069,38.7,Latte
+March,March  7:45:17 PM,cash,,40,Cappuccino
+March,March  7:45:17 PM,card,ANON-0000-0000-0017,38.7,Latte
+March,March  7:45:17 PM,card,ANON-0000-0000-0009,38.7,Latte
+March,March  7:45:17 PM,card,ANON-0000-0000-0009,33.8,Americano with Milk
+March,March  7:29:17 PM,card,ANON-0000-0000-0089,38.7,Cappuccino
+March,March  7:29:17 PM,cash,,30,Americano
+April,April  1:48:15 PM,card,ANON-0000-0000-0004,28.9,Americano
+April,April  3:39:48 PM,card,ANON-0000-0000-0004,33.8,Americano with Milk
+April,April  4:19:03 PM,card,ANON-0000-0000-0004,33.8,Americano with Milk
+April,April  6:39:04 PM,card,ANON-0000-0000-0009,33.8,Americano with Milk
+April,April  7:22:02 PM,cash,,40,Cappuccino
+April,April  7:23:16 PM,card,ANON-0000-0000-0024,33.8,Americano with Milk
+April,April  7:29:17 PM,card,ANON-0000-0000-0090,38.7,Hot Chocolate
+April,April  10:15:51 AM,card,ANON-0000-0000-0001,38.7,Latte
+April,April  12:19:23 PM,card,ANON-0000-0000-0003,28.9,Americano
+April,April  12:20:18 PM,card,ANON-0000-0000-0003,28.9,Cortado
+April,April  1:46:33 PM,cash,,40,Cappuccino
+April,April  1:48:15 PM,card,ANON-0000-0000-0003,28.9,Cortado
+April,April  3:39:48 PM,card,ANON-0000-0000-0003,28.9,Americano
+April,April  4:19:03 PM,card,ANON-0000-0000-0012,38.7,Cappuccino
+April,April  6:39:04 PM,cash,,30,Cortado
+April,April  7:22:02 PM,card,ANON-0000-0000-0091,38.7,Latte
+April,April  7:23:16 PM,card,ANON-0000-0000-0092,38.7,Latte
+April,April  7:29:17 PM,card,ANON-0000-0000-0093,38.7,Cappuccino
+April,April  7:45:17 PM,card,ANON-0000-0000-0094,28.9,Cortado
+April,April  7:45:17 PM,cash,,40,Latte
+April,April  7:45:17 PM,card,ANON-0000-0000-0095,28.9,Americano
+April,April  7:45:17 PM,card,ANON-0000-0000-0012,28.9,Americano
+April,April  7:29:17 PM,card,ANON-0000-0000-0096,28.9,Cortado
+April,April  7:29:17 PM,card,ANON-0000-0000-0097,33.8,Americano with Milk
+April,April  8:34:17 PM,card,ANON-0000-0000-0098,38.7,Latte
+April,April  8:34:17 PM,card,ANON-0000-0000-0098,28.9,Cortado
+April,April  8:34:17 PM,cash,,40,Latte
+April,April  8:34:17 PM,cash,,40,Cappuccino
+April,April  7:29:17 PM,cash,,30,Americano
+April,April  7:29:17 PM,cash,,40,Cocoa
+April,April  3:39:48 PM,card,ANON-0000-0000-0003,24,Espresso
+April,April  4:19:03 PM,card,ANON-0000-0000-0099,33.8,Americano with Milk
+April,April  6:39:04 PM,card,ANON-0000-0000-0040,38.7,Cappuccino
+April,April  7:22:02 PM,card,ANON-0000-0000-0040,28.9,Americano
+April,April  7:23:16 PM,card,ANON-0000-0000-0009,38.7,Latte
+April,April  7:29:17 PM,card,ANON-0000-0000-0091,38.7,Latte
+April,April  7:45:17 PM,card,ANON-0000-0000-0040,38.7,Cappuccino
+April,April  7:45:17 PM,card,ANON-0000-0000-0040,38.7,Cappuccino
+April,April  7:45:17 PM,card,ANON-0000-0000-0100,28.9,Cortado
+April,April  7:45:17 PM,card,ANON-0000-0000-0100,24,Espresso
+April,April  7:29:17 PM,card,ANON-0000-0000-0101,38.7,Hot Chocolate
+April,April  7:29:17 PM,card,ANON-0000-0000-0101,33.8,Americano with Milk
+April,April  8:34:17 PM,card,ANON-0000-0000-0102,33.8,Americano with Milk
+April,April  8:34:17 PM,card,ANON-0000-0000-0103,38.7,Cappuccino
+April,April  8:34:17 PM,card,ANON-0000-0000-0012,28.9,Americano
+April,April  8:34:17 PM,card,ANON-0000-0000-0104,38.7,Cappuccino
+April,April  7:29:17 PM,cash,,25,Espresso
+April,April  7:29:17 PM,cash,,35,Americano with Milk
+April,April  3:39:48 PM,card,ANON-0000-0000-0017,38.7,Latte
+April,April  4:19:03 PM,card,ANON-0000-0000-0105,28.9,Americano
+April,April  6:39:04 PM,card,ANON-0000-0000-0024,33.8,Americano with Milk
+April,April  7:22:02 PM,card,ANON-0000-0000-0106,38.7,Cappuccino
+April,April  7:23:16 PM,cash,,40,Cappuccino
+April,April  7:29:17 PM,cash,,30,Americano
+April,April  7:45:17 PM,card,ANON-0000-0000-0091,38.7,Latte
+April,April  7:45:17 PM,card,ANON-0000-0000-0107,38.7,Hot Chocolate
+April,April  7:45:17 PM,card,ANON-0000-0000-0049,38.7,Hot Chocolate
+April,April  7:45:17 PM,cash,,25,Espresso
+April,April  7:29:17 PM,cash,,40,Hot Chocolate
+April,April  7:29:17 PM,card,ANON-0000-0000-0108,24,Espresso
+April,April  8:34:17 PM,card,ANON-0000-0000-0009,38.7,Cappuccino
+April,April  8:34:17 PM,card,ANON-0000-0000-0109,38.7,Latte
+April,April  8:34:17 PM,card,ANON-0000-0000-0110,28.9,Americano
+April,April  8:34:17 PM,card,ANON-0000-0000-0110,28.9,Americano
+April,April  7:29:17 PM,card,ANON-0000-0000-0017,38.7,Latte
+April,April  7:29:17 PM,card,ANON-0000-0000-0106,38.7,Cappuccino
+April,April  3:39:48 PM,card,ANON-0000-0000-0024,33.8,Americano with Milk
+April,April  4:19:03 PM,card,ANON-0000-0000-0019,38.7,Hot Chocolate
+April,April  6:39:04 PM,card,ANON-0000-0000-0009,28.9,Cortado
+April,April  7:22:02 PM,card,ANON-0000-0000-0009,38.7,Latte
+April,April  7:23:16 PM,card,ANON-0000-0000-0012,28.9,Americano
+April,April  7:29:17 PM,cash,,40,Hot Chocolate
+April,April  7:45:17 PM,cash,,40,Hot Chocolate
+April,April  7:45:17 PM,card,ANON-0000-0000-0111,38.7,Cappuccino
+April,April  7:45:17 PM,card,ANON-0000-0000-0111,38.7,Latte
+April,April  7:45:17 PM,card,ANON-0000-0000-0112,38.7,Cappuccino
+April,April  7:29:17 PM,card,ANON-0000-0000-0012,38.7,Cappuccino
+April,April  7:29:17 PM,cash,,40,Latte
+April,April  8:34:17 PM,card,ANON-0000-0000-0113,38.7,Cappuccino
+April,April  8:34:17 PM,cash,,30,Cortado
+April,April  8:34:17 PM,cash,,30,Cortado
+April,April  8:34:17 PM,cash,,35,Americano with Milk
+April,April  7:29:17 PM,card,ANON-0000-0000-0114,28.9,Cortado
+April,April  7:29:17 PM,card,ANON-0000-0000-0012,28.9,Americano
+April,April  3:39:48 PM,card,ANON-0000-0000-0012,28.9,Americano
+April,April  4:19:03 PM,card,ANON-0000-0000-0012,28.9,Americano
+April,April  6:39:04 PM,card,ANON-0000-0000-0017,38.7,Cappuccino
+April,April  7:22:02 PM,card,ANON-0000-0000-0012,28.9,Cortado
+April,April  7:23:16 PM,card,ANON-0000-0000-0019,38.7,Latte
+April,April  7:29:17 PM,card,ANON-0000-0000-0115,38.7,Cappuccino
+April,April  7:45:17 PM,card,ANON-0000-0000-0064,28.9,Americano
+April,April  7:45:17 PM,card,ANON-0000-0000-0003,28.9,Americano
+April,April  7:45:17 PM,card,ANON-0000-0000-0004,33.8,Americano with Milk
+April,April  7:45:17 PM,card,ANON-0000-0000-0009,33.8,Americano with Milk
+April,April  7:29:17 PM,cash,,25,Espresso
+April,April  7:29:17 PM,cash,,35,Americano with Milk
+April,April  8:34:17 PM,card,ANON-0000-0000-0116,33.8,Americano with Milk
+April,April  8:34:17 PM,card,ANON-0000-0000-0117,38.7,Cocoa
+April,April  8:34:17 PM,card,ANON-0000-0000-0064,28.9,Cortado
+April,April  8:34:17 PM,card,ANON-0000-0000-0118,28.9,Americano
+April,April  7:29:17 PM,card,ANON-0000-0000-0024,33.8,Americano with Milk
+April,April  7:29:17 PM,card,ANON-0000-0000-0009,38.7,Cappuccino
+April,April  7:22:02 PM,card,ANON-0000-0000-0050,38.7,Cocoa
+April,April  7:23:16 PM,card,ANON-0000-0000-0012,28.9,Americano
+April,April  7:29:17 PM,card,ANON-0000-0000-0119,24,Espresso
+April,April  7:45:17 PM,cash,,40,Cappuccino
+April,April  7:45:17 PM,card,ANON-0000-0000-0120,38.7,Cappuccino
+April,April  7:45:17 PM,card,ANON-0000-0000-0120,38.7,Cappuccino
+April,April  7:45:17 PM,card,ANON-0000-0000-0121,28.9,Cortado
+April,April  7:29:17 PM,card,ANON-0000-0000-0003,28.9,Americano
+April,April  7:29:17 PM,card,ANON-0000-0000-0003,28.9,Americano
+April,April  8:34:17 PM,card,ANON-0000-0000-0122,33.8,Americano with Milk
+April,April  8:34:17 PM,card,ANON-0000-0000-0122,28.9,Cortado
+April,April  8:34:17 PM,card,ANON-0000-0000-0123,38.7,Cappuccino
+April,April  8:34:17 PM,card,ANON-0000-0000-0123,38.7,Latte
+April,April  7:29:17 PM,card,ANON-0000-0000-0069,38.7,Latte
+April,April  7:29:17 PM,card,ANON-0000-0000-0085,38.7,Cappuccino
+April,April  3:39:48 PM,card,ANON-0000-0000-0024,38.7,Hot Chocolate
+April,April  4:19:03 PM,card,ANON-0000-0000-0009,38.7,Hot Chocolate
+April,April  6:39:04 PM,card,ANON-0000-0000-0001,38.7,Latte
+April,April  7:22:02 PM,card,ANON-0000-0000-0040,33.8,Americano with Milk
+April,April  7:23:16 PM,card,ANON-0000-0000-0040,38.7,Cappuccino
+April,April  7:29:17 PM,card,ANON-0000-0000-0124,38.7,Hot Chocolate
+April,April  7:45:17 PM,card,ANON-0000-0000-0124,38.7,Cappuccino
+April,April  7:45:17 PM,card,ANON-0000-0000-0024,38.7,Cocoa
+April,April  7:45:17 PM,card,ANON-0000-0000-0009,33.8,Americano with Milk
+April,April  7:45:17 PM,cash,,35,Americano with Milk
+April,April  7:29:17 PM,card,ANON-0000-0000-0125,33.8,Americano with Milk
+April,April  7:29:17 PM,card,ANON-0000-0000-0125,33.8,Americano with Milk
+April,April  8:34:17 PM,card,ANON-0000-0000-0118,28.9,Americano
+April,April  8:34:17 PM,card,ANON-0000-0000-0118,33.8,Americano with Milk
+April,April  7:29:17 PM,card,ANON-0000-0000-0118,38.7,Hot Chocolate
+April,April  7:29:17 PM,card,ANON-0000-0000-0040,38.7,Cappuccino
+April,April  3:39:48 PM,card,ANON-0000-0000-0009,33.8,Americano with Milk
+April,April  4:19:03 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+April,April  6:39:04 PM,card,ANON-0000-0000-0126,32.82,Americano with Milk
+April,April  7:22:02 PM,cash,,39,Cocoa
+April,April  7:23:16 PM,card,ANON-0000-0000-0127,37.72,Cappuccino
+April,April  7:29:17 PM,card,ANON-0000-0000-0127,37.72,Cappuccino
+April,April  7:45:17 PM,card,ANON-0000-0000-0128,37.72,Latte
+April,April  7:45:17 PM,card,ANON-0000-0000-0001,37.72,Latte
+April,April  7:45:17 PM,card,ANON-0000-0000-0099,27.92,Americano
+April,April  7:45:17 PM,cash,,39,Cappuccino
+April,April  7:29:17 PM,card,ANON-0000-0000-0012,27.92,Americano
+April,April  7:29:17 PM,card,ANON-0000-0000-0129,32.82,Americano with Milk
+April,April  8:34:17 PM,cash,,39,Latte
+April,April  8:34:17 PM,card,ANON-0000-0000-0009,37.72,Latte
+April,April  8:34:17 PM,cash,,39,Cappuccino
+April,April  8:34:17 PM,card,ANON-0000-0000-0025,37.72,Cappuccino
+April,April  7:29:17 PM,card,ANON-0000-0000-0024,32.82,Americano with Milk
+April,April  7:29:17 PM,card,ANON-0000-0000-0009,37.72,Cappuccino
+April,April  3:39:48 PM,card,ANON-0000-0000-0130,32.82,Americano with Milk
+April,April  4:19:03 PM,card,ANON-0000-0000-0130,32.82,Americano with Milk
+April,April  6:39:04 PM,card,ANON-0000-0000-0001,37.72,Latte
+April,April  7:22:02 PM,card,ANON-0000-0000-0131,32.82,Americano with Milk
+April,April  7:23:16 PM,card,ANON-0000-0000-0132,32.82,Americano with Milk
+April,April  7:29:17 PM,card,ANON-0000-0000-0133,32.82,Americano with Milk
+April,April  7:45:17 PM,card,ANON-0000-0000-0059,32.82,Americano with Milk
+April,April  7:45:17 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+April,April  7:45:17 PM,card,ANON-0000-0000-0134,32.82,Americano with Milk
+April,April  7:45:17 PM,card,ANON-0000-0000-0134,37.72,Cappuccino
+April,April  7:29:17 PM,card,ANON-0000-0000-0135,27.92,Americano
+April,April  7:29:17 PM,card,ANON-0000-0000-0009,37.72,Latte
+April,April  8:34:17 PM,card,ANON-0000-0000-0012,27.92,Americano
+April,April  8:34:17 PM,card,ANON-0000-0000-0012,27.92,Americano
+April,April  8:34:17 PM,card,ANON-0000-0000-0001,37.72,Latte
+April,April  8:34:17 PM,card,ANON-0000-0000-0136,37.72,Latte
+April,April  7:29:17 PM,card,ANON-0000-0000-0137,37.72,Cappuccino
+April,April  7:29:17 PM,card,ANON-0000-0000-0012,27.92,Americano
+April,April  7:22:02 PM,card,ANON-0000-0000-0012,27.92,Americano
+April,April  7:23:16 PM,card,ANON-0000-0000-0138,27.92,Cortado
+April,April  7:29:17 PM,card,ANON-0000-0000-0139,27.92,Americano
+April,April  7:45:17 PM,card,ANON-0000-0000-0009,37.72,Hot Chocolate
+April,April  7:45:17 PM,card,ANON-0000-0000-0009,37.72,Cocoa
+April,April  7:45:17 PM,card,ANON-0000-0000-0009,37.72,Cappuccino
+April,April  7:45:17 PM,card,ANON-0000-0000-0001,37.72,Latte
+April,April  7:29:17 PM,card,ANON-0000-0000-0140,37.72,Cappuccino
+April,April  7:29:17 PM,card,ANON-0000-0000-0012,27.92,Americano
+April,April  8:34:17 PM,card,ANON-0000-0000-0012,27.92,Americano
+April,April  8:34:17 PM,card,ANON-0000-0000-0019,37.72,Latte
+April,April  8:34:17 PM,card,ANON-0000-0000-0141,27.92,Cortado
+April,April  8:34:17 PM,card,ANON-0000-0000-0003,27.92,Americano
+April,April  7:29:17 PM,card,ANON-0000-0000-0003,27.92,Cortado
+April,April  7:29:17 PM,card,ANON-0000-0000-0141,27.92,Cortado
+April,April  3:39:48 PM,card,ANON-0000-0000-0141,32.82,Americano with Milk
+April,April  4:19:03 PM,card,ANON-0000-0000-0140,37.72,Cappuccino
+April,April  6:39:04 PM,card,ANON-0000-0000-0134,37.72,Cappuccino
+April,April  7:22:02 PM,card,ANON-0000-0000-0134,37.72,Cappuccino
+April,April  7:23:16 PM,card,ANON-0000-0000-0142,37.72,Latte
+April,April  7:29:17 PM,card,ANON-0000-0000-0142,32.82,Americano with Milk
+April,April  7:45:17 PM,card,ANON-0000-0000-0142,32.82,Americano with Milk
+April,April  7:45:17 PM,card,ANON-0000-0000-0142,27.92,Americano
+April,April  7:45:17 PM,card,ANON-0000-0000-0142,32.82,Americano with Milk
+April,April  7:45:17 PM,card,ANON-0000-0000-0142,37.72,Cappuccino
+April,April  7:29:17 PM,card,ANON-0000-0000-0142,32.82,Americano with Milk
+April,April  7:29:17 PM,card,ANON-0000-0000-0142,37.72,Latte
+May,May  10:15:51 AM,card,ANON-0000-0000-0143,27.92,Americano
+May,May  12:19:23 PM,cash,,39,Latte
+May,May  12:20:18 PM,card,ANON-0000-0000-0133,32.82,Americano with Milk
+May,May  1:46:33 PM,card,ANON-0000-0000-0144,37.72,Cappuccino
+May,May  1:48:15 PM,card,ANON-0000-0000-0024,32.82,Americano with Milk
+May,May  3:39:48 PM,card,ANON-0000-0000-0145,37.72,Latte
+May,May  4:19:03 PM,card,ANON-0000-0000-0145,37.72,Cappuccino
+May,May  6:39:04 PM,cash,,39,Latte
+May,May  7:22:02 PM,card,ANON-0000-0000-0146,37.72,Latte
+May,May  7:23:16 PM,card,ANON-0000-0000-0147,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0148,27.92,Americano
+May,May  10:15:51 AM,card,ANON-0000-0000-0149,37.72,Cappuccino
+May,May  12:19:23 PM,card,ANON-0000-0000-0149,32.82,Americano with Milk
+May,May  12:20:18 PM,card,ANON-0000-0000-0150,27.92,Americano
+May,May  1:46:33 PM,card,ANON-0000-0000-0141,27.92,Cortado
+May,May  1:48:15 PM,cash,,29,Americano
+May,May  3:39:48 PM,card,ANON-0000-0000-0148,27.92,Cortado
+May,May  4:19:03 PM,card,ANON-0000-0000-0148,27.92,Americano
+May,May  6:39:04 PM,card,ANON-0000-0000-0151,37.72,Cappuccino
+May,May  7:22:02 PM,card,ANON-0000-0000-0151,37.72,Cappuccino
+May,May  7:23:16 PM,card,ANON-0000-0000-0148,37.72,Cocoa
+May,May  7:29:17 PM,card,ANON-0000-0000-0141,27.92,Cortado
+May,May  10:15:51 AM,card,ANON-0000-0000-0077,27.92,Cortado
+May,May  12:19:23 PM,card,ANON-0000-0000-0148,37.72,Cocoa
+May,May  12:20:18 PM,card,ANON-0000-0000-0152,27.92,Americano
+May,May  1:46:33 PM,card,ANON-0000-0000-0153,37.72,Cappuccino
+May,May  1:48:15 PM,card,ANON-0000-0000-0153,37.72,Latte
+May,May  3:39:48 PM,cash,,34,Americano with Milk
+May,May  4:19:03 PM,card,ANON-0000-0000-0154,37.72,Cappuccino
+May,May  6:39:04 PM,card,ANON-0000-0000-0154,37.72,Cappuccino
+May,May  7:22:02 PM,card,ANON-0000-0000-0001,37.72,Latte
+May,May  7:23:16 PM,card,ANON-0000-0000-0155,37.72,Cappuccino
+May,May  7:29:17 PM,card,ANON-0000-0000-0156,27.92,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0156,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0156,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0156,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0118,27.92,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0118,27.92,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0157,27.92,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0143,32.82,Americano with Milk
+May,May  7:29:17 PM,cash,,39,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0158,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0158,37.72,Latte
+May,May  7:29:17 PM,cash,,34,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0069,37.72,Latte
+May,May  7:29:17 PM,cash,,39,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0026,37.72,Cocoa
+May,May  7:29:17 PM,card,ANON-0000-0000-0040,37.72,Cappuccino
+May,May  7:29:17 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0115,37.72,Cappuccino
+May,May  7:29:17 PM,card,ANON-0000-0000-0159,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0001,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0160,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0161,27.92,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0077,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0162,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0163,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0164,32.82,Americano with Milk
+May,May  8:29:17 PM,cash,,29,Americano
+May,May  10:15:51 AM,cash,,29,Americano
+May,May  12:19:23 PM,card,ANON-0000-0000-0012,27.92,Americano
+May,May  12:20:18 PM,card,ANON-0000-0000-0012,27.92,Americano
+May,May  1:46:33 PM,card,ANON-0000-0000-0012,27.92,Americano
+May,May  1:48:15 PM,card,ANON-0000-0000-0012,37.72,Cappuccino
+May,May  3:39:48 PM,card,ANON-0000-0000-0165,37.72,Latte
+May,May  4:19:03 PM,card,ANON-0000-0000-0165,37.72,Cappuccino
+May,May  6:39:04 PM,card,ANON-0000-0000-0025,37.72,Cappuccino
+May,May  7:22:02 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+May,May  7:23:16 PM,card,ANON-0000-0000-0040,27.92,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0166,32.82,Americano with Milk
+May,May  10:15:51 AM,card,ANON-0000-0000-0166,37.72,Cappuccino
+May,May  12:19:23 PM,card,ANON-0000-0000-0167,37.72,Hot Chocolate
+May,May  12:20:18 PM,card,ANON-0000-0000-0168,37.72,Latte
+May,May  1:46:33 PM,card,ANON-0000-0000-0012,23.02,Espresso
+May,May  1:48:15 PM,card,ANON-0000-0000-0012,27.92,Americano
+May,May  3:39:48 PM,card,ANON-0000-0000-0003,27.92,Americano
+May,May  4:19:03 PM,card,ANON-0000-0000-0003,27.92,Americano
+May,May  6:39:04 PM,card,ANON-0000-0000-0003,27.92,Americano
+May,May  7:22:02 PM,card,ANON-0000-0000-0164,32.82,Americano with Milk
+May,May  7:23:16 PM,cash,,29,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0169,27.92,Cortado
+May,May  10:15:51 AM,card,ANON-0000-0000-0012,27.92,Cortado
+May,May  12:19:23 PM,card,ANON-0000-0000-0170,23.02,Espresso
+May,May  12:20:18 PM,card,ANON-0000-0000-0171,37.72,Cappuccino
+May,May  1:46:33 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+May,May  1:48:15 PM,card,ANON-0000-0000-0172,32.82,Americano with Milk
+May,May  3:39:48 PM,cash,,39,Latte
+May,May  4:19:03 PM,cash,,39,Cappuccino
+May,May  6:39:04 PM,card,ANON-0000-0000-0173,32.82,Americano with Milk
+May,May  7:22:02 PM,card,ANON-0000-0000-0174,37.72,Hot Chocolate
+May,May  7:23:16 PM,card,ANON-0000-0000-0069,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0175,37.72,Hot Chocolate
+May,May  7:45:17 PM,card,ANON-0000-0000-0175,37.72,Latte
+May,May  7:45:17 PM,card,ANON-0000-0000-0033,27.92,Americano
+May,May  7:45:17 PM,card,ANON-0000-0000-0164,32.82,Americano with Milk
+May,May  7:45:17 PM,cash,,34,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0009,37.72,Cappuccino
+May,May  8:34:17 PM,card,ANON-0000-0000-0176,37.72,Cappuccino
+May,May  8:34:17 PM,card,ANON-0000-0000-0177,27.92,Americano
+May,May  8:34:17 PM,card,ANON-0000-0000-0178,37.72,Latte
+May,May  8:34:17 PM,card,ANON-0000-0000-0179,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0180,37.72,Cappuccino
+May,May  7:29:17 PM,card,ANON-0000-0000-0180,37.72,Cappuccino
+May,May  3:39:48 PM,card,ANON-0000-0000-0181,32.82,Americano with Milk
+May,May  4:19:03 PM,card,ANON-0000-0000-0172,32.82,Americano with Milk
+May,May  6:39:04 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+May,May  7:22:02 PM,card,ANON-0000-0000-0040,32.82,Americano with Milk
+May,May  7:23:16 PM,card,ANON-0000-0000-0009,37.72,Latte
+May,May  7:29:17 PM,cash,,39,Cappuccino
+May,May  7:45:17 PM,card,ANON-0000-0000-0182,27.92,Americano
+May,May  7:45:17 PM,card,ANON-0000-0000-0182,27.92,Americano
+May,May  7:45:17 PM,card,ANON-0000-0000-0183,37.72,Cappuccino
+May,May  7:45:17 PM,cash,,24,Espresso
+May,May  7:29:17 PM,card,ANON-0000-0000-0184,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0012,27.92,Americano
+May,May  8:34:17 PM,card,ANON-0000-0000-0185,32.82,Americano with Milk
+May,May  8:34:17 PM,card,ANON-0000-0000-0186,32.82,Americano with Milk
+May,May  8:34:17 PM,card,ANON-0000-0000-0186,23.02,Espresso
+May,May  8:34:17 PM,card,ANON-0000-0000-0186,37.72,Hot Chocolate
+May,May  7:29:17 PM,card,ANON-0000-0000-0187,37.72,Cappuccino
+May,May  7:29:17 PM,card,ANON-0000-0000-0188,37.72,Cappuccino
+May,May  3:39:48 PM,card,ANON-0000-0000-0189,37.72,Cappuccino
+May,May  4:19:03 PM,card,ANON-0000-0000-0190,32.82,Americano with Milk
+May,May  6:39:04 PM,card,ANON-0000-0000-0191,37.72,Latte
+May,May  7:22:02 PM,card,ANON-0000-0000-0001,37.72,Latte
+May,May  7:23:16 PM,card,ANON-0000-0000-0143,27.92,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0143,27.92,Americano
+May,May  7:45:17 PM,card,ANON-0000-0000-0003,27.92,Americano
+May,May  7:45:17 PM,card,ANON-0000-0000-0003,27.92,Americano
+May,May  7:45:17 PM,card,ANON-0000-0000-0192,32.82,Americano with Milk
+May,May  7:45:17 PM,card,ANON-0000-0000-0192,37.72,Cappuccino
+May,May  7:29:17 PM,cash,,29,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0120,37.72,Latte
+May,May  8:34:17 PM,card,ANON-0000-0000-0193,37.72,Latte
+May,May  8:34:17 PM,card,ANON-0000-0000-0194,32.82,Americano with Milk
+May,May  8:34:17 PM,card,ANON-0000-0000-0194,37.72,Cocoa
+May,May  8:34:17 PM,card,ANON-0000-0000-0195,27.92,Cortado
+May,May  7:29:17 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+May,May  3:39:48 PM,card,ANON-0000-0000-0196,37.72,Latte
+May,May  4:19:03 PM,cash,,29,Americano
+May,May  6:39:04 PM,cash,,34,Americano with Milk
+May,May  7:22:02 PM,cash,,39,Cocoa
+May,May  7:23:16 PM,cash,,39,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0197,37.72,Latte
+May,May  7:45:17 PM,card,ANON-0000-0000-0012,23.02,Espresso
+May,May  7:45:17 PM,card,ANON-0000-0000-0198,37.72,Cappuccino
+May,May  7:45:17 PM,card,ANON-0000-0000-0199,37.72,Cappuccino
+May,May  7:45:17 PM,card,ANON-0000-0000-0200,37.72,Cappuccino
+May,May  7:29:17 PM,card,ANON-0000-0000-0191,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0141,27.92,Cortado
+May,May  8:34:17 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+May,May  8:34:17 PM,card,ANON-0000-0000-0012,27.92,Americano
+May,May  8:34:17 PM,card,ANON-0000-0000-0012,27.92,Americano
+May,May  8:34:17 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0134,37.72,Cappuccino
+May,May  7:29:17 PM,card,ANON-0000-0000-0134,37.72,Cappuccino
+May,May  3:39:48 PM,card,ANON-0000-0000-0180,37.72,Hot Chocolate
+May,May  4:19:03 PM,card,ANON-0000-0000-0180,37.72,Cappuccino
+May,May  6:39:04 PM,card,ANON-0000-0000-0201,37.72,Cappuccino
+May,May  7:22:02 PM,card,ANON-0000-0000-0202,23.02,Espresso
+May,May  7:23:16 PM,card,ANON-0000-0000-0180,37.72,Cappuccino
+May,May  7:29:17 PM,card,ANON-0000-0000-0203,37.72,Cappuccino
+May,May  7:45:17 PM,card,ANON-0000-0000-0180,37.72,Cappuccino
+May,May  7:45:17 PM,card,ANON-0000-0000-0077,37.72,Latte
+May,May  7:45:17 PM,card,ANON-0000-0000-0153,37.72,Cappuccino
+May,May  7:45:17 PM,card,ANON-0000-0000-0153,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0204,27.92,Cortado
+May,May  7:29:17 PM,card,ANON-0000-0000-0134,37.72,Cappuccino
+May,May  8:34:17 PM,card,ANON-0000-0000-0205,37.72,Cappuccino
+May,May  8:34:17 PM,card,ANON-0000-0000-0206,37.72,Cappuccino
+May,May  8:34:17 PM,card,ANON-0000-0000-0207,37.72,Cappuccino
+May,May  8:34:17 PM,card,ANON-0000-0000-0207,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0208,32.82,Americano with Milk
+May,May  7:29:17 PM,cash,,39,Hot Chocolate
+May,May  7:22:02 PM,card,ANON-0000-0000-0141,27.92,Cortado
+May,May  7:23:16 PM,card,ANON-0000-0000-0012,27.92,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0012,27.92,Americano
+May,May  7:45:17 PM,card,ANON-0000-0000-0081,37.72,Hot Chocolate
+May,May  7:45:17 PM,card,ANON-0000-0000-0209,27.92,Cortado
+May,May  7:45:17 PM,card,ANON-0000-0000-0209,27.92,Cortado
+May,May  7:45:17 PM,card,ANON-0000-0000-0210,32.82,Americano with Milk
+May,May  7:29:17 PM,cash,,29,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0211,37.72,Latte
+May,May  8:34:17 PM,cash,,29,Americano
+May,May  8:34:17 PM,card,ANON-0000-0000-0212,32.82,Americano with Milk
+May,May  8:34:17 PM,card,ANON-0000-0000-0212,32.82,Americano with Milk
+May,May  8:34:17 PM,card,ANON-0000-0000-0213,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0040,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0040,27.92,Americano
+May,May  3:39:48 PM,card,ANON-0000-0000-0001,37.72,Latte
+May,May  4:19:03 PM,card,ANON-0000-0000-0214,32.82,Americano with Milk
+May,May  6:39:04 PM,card,ANON-0000-0000-0215,27.92,Cortado
+May,May  7:22:02 PM,card,ANON-0000-0000-0216,32.82,Americano with Milk
+May,May  7:23:16 PM,card,ANON-0000-0000-0217,37.72,Cappuccino
+May,May  7:29:17 PM,card,ANON-0000-0000-0218,37.72,Hot Chocolate
+May,May  7:45:17 PM,card,ANON-0000-0000-0218,37.72,Hot Chocolate
+May,May  7:45:17 PM,card,ANON-0000-0000-0218,27.92,Americano
+May,May  7:45:17 PM,card,ANON-0000-0000-0219,37.72,Latte
+May,May  7:45:17 PM,card,ANON-0000-0000-0220,37.72,Hot Chocolate
+May,May  7:29:17 PM,card,ANON-0000-0000-0220,37.72,Cappuccino
+May,May  7:29:17 PM,card,ANON-0000-0000-0221,27.92,Cortado
+May,May  1:48:15 PM,card,ANON-0000-0000-0222,37.72,Cappuccino
+May,May  3:39:48 PM,card,ANON-0000-0000-0221,37.72,Latte
+May,May  4:19:03 PM,card,ANON-0000-0000-0223,37.72,Cappuccino
+May,May  6:39:04 PM,card,ANON-0000-0000-0012,27.92,Americano
+May,May  7:22:02 PM,card,ANON-0000-0000-0224,32.82,Americano with Milk
+May,May  7:23:16 PM,card,ANON-0000-0000-0224,37.72,Cocoa
+May,May  7:29:17 PM,card,ANON-0000-0000-0225,27.92,Americano
+May,May  10:15:51 AM,card,ANON-0000-0000-0225,27.92,Americano
+May,May  12:19:23 PM,card,ANON-0000-0000-0203,37.72,Latte
+May,May  12:20:18 PM,card,ANON-0000-0000-0226,27.92,Americano
+May,May  1:46:33 PM,card,ANON-0000-0000-0227,37.72,Latte
+May,May  1:48:15 PM,card,ANON-0000-0000-0228,37.72,Latte
+May,May  3:39:48 PM,card,ANON-0000-0000-0192,32.82,Americano with Milk
+May,May  4:19:03 PM,card,ANON-0000-0000-0206,37.72,Cappuccino
+May,May  6:39:04 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+May,May  7:22:02 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+May,May  7:23:16 PM,card,ANON-0000-0000-0229,37.72,Cappuccino
+May,May  7:29:17 PM,card,ANON-0000-0000-0230,37.72,Cappuccino
+May,May  7:45:17 PM,card,ANON-0000-0000-0194,37.72,Cocoa
+May,May  7:45:17 PM,card,ANON-0000-0000-0141,27.92,Cortado
+May,May  7:45:17 PM,cash,,39,Cappuccino
+May,May  7:45:17 PM,card,ANON-0000-0000-0231,27.92,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0231,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+May,May  8:34:17 PM,card,ANON-0000-0000-0012,27.92,Americano
+May,May  8:34:17 PM,card,ANON-0000-0000-0232,37.72,Latte
+May,May  8:34:17 PM,cash,,39,Latte
+May,May  8:34:17 PM,card,ANON-0000-0000-0233,37.72,Hot Chocolate
+May,May  7:29:17 PM,card,ANON-0000-0000-0234,27.92,Americano
+May,May  7:29:17 PM,card,ANON-0000-0000-0235,37.72,Latte
+May,May  3:39:48 PM,card,ANON-0000-0000-0236,37.72,Cappuccino
+May,May  4:19:03 PM,card,ANON-0000-0000-0237,37.72,Latte
+May,May  6:39:04 PM,card,ANON-0000-0000-0238,27.92,Cortado
+May,May  7:22:02 PM,card,ANON-0000-0000-0238,37.72,Latte
+May,May  7:23:16 PM,card,ANON-0000-0000-0239,37.72,Hot Chocolate
+May,May  7:29:17 PM,card,ANON-0000-0000-0240,37.72,Cocoa
+May,May  7:45:17 PM,card,ANON-0000-0000-0241,37.72,Cappuccino
+May,May  7:45:17 PM,card,ANON-0000-0000-0241,37.72,Latte
+May,May  7:45:17 PM,card,ANON-0000-0000-0242,32.82,Americano with Milk
+May,May  7:45:17 PM,card,ANON-0000-0000-0001,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0243,23.02,Espresso
+May,May  8:34:17 PM,card,ANON-0000-0000-0012,23.02,Espresso
+May,May  8:34:17 PM,card,ANON-0000-0000-0206,37.72,Cappuccino
+May,May  8:34:17 PM,card,ANON-0000-0000-0244,37.72,Latte
+May,May  8:34:17 PM,card,ANON-0000-0000-0009,37.72,Hot Chocolate
+May,May  7:29:17 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0245,32.82,Americano with Milk
+May,May  3:39:48 PM,card,ANON-0000-0000-0246,37.72,Latte
+May,May  4:19:03 PM,cash,,39,Latte
+May,May  6:39:04 PM,card,ANON-0000-0000-0247,37.72,Hot Chocolate
+May,May  7:22:02 PM,card,ANON-0000-0000-0248,37.72,Cocoa
+May,May  7:23:16 PM,card,ANON-0000-0000-0249,32.82,Americano with Milk
+May,May  7:29:17 PM,card,ANON-0000-0000-0250,37.72,Latte
+May,May  7:45:17 PM,card,ANON-0000-0000-0250,37.72,Latte
+May,May  7:45:17 PM,card,ANON-0000-0000-0180,37.72,Cappuccino
+May,May  7:45:17 PM,card,ANON-0000-0000-0134,32.82,Americano with Milk
+May,May  7:45:17 PM,card,ANON-0000-0000-0134,37.72,Latte
+May,May  7:29:17 PM,card,ANON-0000-0000-0206,37.72,Cappuccino
+May,May  7:29:17 PM,card,ANON-0000-0000-0206,32.82,Americano with Milk
+May,May  7:45:17 PM,card,ANON-0000-0000-0206,27.92,Cortado
+June,June  10:15:51 AM,card,ANON-0000-0000-0141,27.92,Cortado
+June,June  12:19:23 PM,card,ANON-0000-0000-0232,37.72,Latte
+June,June  12:20:18 PM,card,ANON-0000-0000-0250,37.72,Latte
+June,June  1:46:33 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+June,June  1:48:15 PM,card,ANON-0000-0000-0251,32.82,Americano with Milk
+June,June  3:39:48 PM,card,ANON-0000-0000-0251,32.82,Americano with Milk
+June,June  4:19:03 PM,card,ANON-0000-0000-0154,37.72,Cappuccino
+June,June  6:39:04 PM,card,ANON-0000-0000-0154,37.72,Cappuccino
+June,June  7:22:02 PM,cash,,39,Cocoa
+June,June  7:23:16 PM,card,ANON-0000-0000-0252,37.72,Cocoa
+June,June  7:29:17 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+June,June  10:15:51 AM,card,ANON-0000-0000-0009,37.72,Latte
+June,June  12:19:23 PM,card,ANON-0000-0000-0040,32.82,Americano with Milk
+June,June  12:20:18 PM,card,ANON-0000-0000-0040,37.72,Cappuccino
+June,June  1:46:33 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+June,June  1:48:15 PM,card,ANON-0000-0000-0253,37.72,Latte
+June,June  3:39:48 PM,cash,,34,Americano with Milk
+June,June  4:19:03 PM,card,ANON-0000-0000-0001,37.72,Latte
+June,June  6:39:04 PM,card,ANON-0000-0000-0191,37.72,Latte
+June,June  7:22:02 PM,card,ANON-0000-0000-0025,37.72,Cappuccino
+June,June  7:23:16 PM,card,ANON-0000-0000-0024,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0009,37.72,Latte
+June,June  10:15:51 AM,cash,,34,Americano with Milk
+June,June  12:19:23 PM,cash,,34,Americano with Milk
+June,June  12:20:18 PM,card,ANON-0000-0000-0141,27.92,Cortado
+June,June  1:46:33 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+June,June  1:48:15 PM,card,ANON-0000-0000-0254,37.72,Latte
+June,June  3:39:48 PM,card,ANON-0000-0000-0254,37.72,Hot Chocolate
+June,June  4:19:03 PM,card,ANON-0000-0000-0255,37.72,Latte
+June,June  6:39:04 PM,card,ANON-0000-0000-0192,27.92,Cortado
+June,June  7:22:02 PM,card,ANON-0000-0000-0192,37.72,Cappuccino
+June,June  7:23:16 PM,card,ANON-0000-0000-0256,37.72,Hot Chocolate
+June,June  7:29:17 PM,card,ANON-0000-0000-0257,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0258,27.92,Cortado
+June,June  7:29:17 PM,card,ANON-0000-0000-0259,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0260,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0260,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0260,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0261,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0261,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0262,27.92,Americano
+June,June  7:29:17 PM,card,ANON-0000-0000-0001,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0263,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0264,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0220,37.72,Cocoa
+June,June  7:29:17 PM,card,ANON-0000-0000-0220,27.92,Cortado
+June,June  7:29:17 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0001,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0265,27.92,Americano
+June,June  7:29:17 PM,card,ANON-0000-0000-0224,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0266,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0267,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0267,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0206,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0206,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0267,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0268,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0269,23.02,Espresso
+June,June  7:29:17 PM,card,ANON-0000-0000-0164,32.82,Americano with Milk
+June,June  8:29:17 PM,card,ANON-0000-0000-0270,27.92,Cortado
+June,June  10:15:51 AM,card,ANON-0000-0000-0270,27.92,Cortado
+June,June  12:19:23 PM,card,ANON-0000-0000-0271,27.92,Cortado
+June,June  12:20:18 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+June,June  1:46:33 PM,card,ANON-0000-0000-0134,37.72,Cappuccino
+June,June  1:48:15 PM,card,ANON-0000-0000-0134,37.72,Cappuccino
+June,June  3:39:48 PM,card,ANON-0000-0000-0097,37.72,Latte
+June,June  4:19:03 PM,card,ANON-0000-0000-0272,37.72,Latte
+June,June  6:39:04 PM,card,ANON-0000-0000-0273,37.72,Cappuccino
+June,June  7:22:02 PM,card,ANON-0000-0000-0141,27.92,Cortado
+June,June  7:23:16 PM,card,ANON-0000-0000-0274,23.02,Espresso
+June,June  7:29:17 PM,card,ANON-0000-0000-0275,37.72,Cappuccino
+June,June  10:15:51 AM,card,ANON-0000-0000-0276,32.82,Americano with Milk
+June,June  12:19:23 PM,card,ANON-0000-0000-0276,37.72,Latte
+June,June  12:20:18 PM,card,ANON-0000-0000-0276,37.72,Latte
+June,June  1:46:33 PM,card,ANON-0000-0000-0277,27.92,Cortado
+June,June  1:48:15 PM,card,ANON-0000-0000-0278,37.72,Cappuccino
+June,June  3:39:48 PM,card,ANON-0000-0000-0279,32.82,Americano with Milk
+June,June  4:19:03 PM,card,ANON-0000-0000-0280,27.92,Americano
+June,June  6:39:04 PM,card,ANON-0000-0000-0281,37.72,Cappuccino
+June,June  7:22:02 PM,card,ANON-0000-0000-0097,37.72,Latte
+June,June  7:23:16 PM,card,ANON-0000-0000-0282,37.72,Hot Chocolate
+June,June  7:29:17 PM,card,ANON-0000-0000-0282,37.72,Hot Chocolate
+June,June  10:15:51 AM,card,ANON-0000-0000-0283,37.72,Latte
+June,June  12:19:23 PM,card,ANON-0000-0000-0283,37.72,Latte
+June,June  12:20:18 PM,card,ANON-0000-0000-0284,32.82,Americano with Milk
+June,June  1:46:33 PM,card,ANON-0000-0000-0285,37.72,Latte
+June,June  1:48:15 PM,card,ANON-0000-0000-0285,37.72,Latte
+June,June  3:39:48 PM,card,ANON-0000-0000-0286,37.72,Hot Chocolate
+June,June  4:19:03 PM,card,ANON-0000-0000-0287,32.82,Americano with Milk
+June,June  6:39:04 PM,card,ANON-0000-0000-0287,32.82,Americano with Milk
+June,June  7:22:02 PM,card,ANON-0000-0000-0288,37.72,Hot Chocolate
+June,June  7:23:16 PM,card,ANON-0000-0000-0289,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0283,37.72,Latte
+June,June  7:45:17 PM,card,ANON-0000-0000-0290,37.72,Latte
+June,June  7:45:17 PM,card,ANON-0000-0000-0256,37.72,Hot Chocolate
+June,June  7:45:17 PM,card,ANON-0000-0000-0291,32.82,Americano with Milk
+June,June  7:45:17 PM,card,ANON-0000-0000-0292,27.92,Americano
+June,June  7:29:17 PM,card,ANON-0000-0000-0097,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0293,32.82,Americano with Milk
+June,June  8:34:17 PM,card,ANON-0000-0000-0141,27.92,Cortado
+June,June  8:34:17 PM,card,ANON-0000-0000-0294,32.82,Americano with Milk
+June,June  8:34:17 PM,card,ANON-0000-0000-0295,37.72,Hot Chocolate
+June,June  8:34:17 PM,card,ANON-0000-0000-0296,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0012,23.02,Espresso
+June,June  3:39:48 PM,card,ANON-0000-0000-0295,23.02,Espresso
+June,June  4:19:03 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+June,June  6:39:04 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+June,June  7:22:02 PM,card,ANON-0000-0000-0141,27.92,Cortado
+June,June  7:23:16 PM,card,ANON-0000-0000-0297,27.92,Americano
+June,June  7:29:17 PM,card,ANON-0000-0000-0097,37.72,Latte
+June,June  7:45:17 PM,card,ANON-0000-0000-0298,32.82,Americano with Milk
+June,June  7:45:17 PM,card,ANON-0000-0000-0299,37.72,Cappuccino
+June,June  7:45:17 PM,card,ANON-0000-0000-0300,37.72,Latte
+June,June  7:45:17 PM,card,ANON-0000-0000-0300,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0300,23.02,Espresso
+June,June  7:29:17 PM,card,ANON-0000-0000-0300,37.72,Cocoa
+June,June  8:34:17 PM,card,ANON-0000-0000-0300,32.82,Americano with Milk
+June,June  8:34:17 PM,card,ANON-0000-0000-0301,32.82,Americano with Milk
+June,June  8:34:17 PM,card,ANON-0000-0000-0302,27.92,Americano
+June,June  8:34:17 PM,card,ANON-0000-0000-0059,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0303,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0303,37.72,Hot Chocolate
+June,June  3:39:48 PM,card,ANON-0000-0000-0303,37.72,Hot Chocolate
+June,June  4:19:03 PM,card,ANON-0000-0000-0276,32.82,Americano with Milk
+June,June  6:39:04 PM,card,ANON-0000-0000-0274,23.02,Espresso
+June,June  7:22:02 PM,card,ANON-0000-0000-0304,32.82,Americano with Milk
+June,June  7:23:16 PM,card,ANON-0000-0000-0304,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0305,37.72,Hot Chocolate
+June,June  7:45:17 PM,card,ANON-0000-0000-0306,37.72,Hot Chocolate
+June,June  7:45:17 PM,card,ANON-0000-0000-0059,32.82,Americano with Milk
+June,June  7:45:17 PM,card,ANON-0000-0000-0059,32.82,Americano with Milk
+June,June  7:45:17 PM,card,ANON-0000-0000-0307,27.92,Americano
+June,June  7:29:17 PM,card,ANON-0000-0000-0308,27.92,Cortado
+June,June  7:29:17 PM,card,ANON-0000-0000-0308,27.92,Cortado
+June,June  8:34:17 PM,card,ANON-0000-0000-0042,37.72,Cappuccino
+June,June  8:34:17 PM,card,ANON-0000-0000-0164,37.72,Cappuccino
+June,June  8:34:17 PM,card,ANON-0000-0000-0012,37.72,Cappuccino
+June,June  8:34:17 PM,card,ANON-0000-0000-0012,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0012,27.92,Americano
+June,June  7:29:17 PM,card,ANON-0000-0000-0309,27.92,Americano
+June,June  3:39:48 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+June,June  4:19:03 PM,card,ANON-0000-0000-0299,27.92,Americano
+June,June  6:39:04 PM,card,ANON-0000-0000-0299,37.72,Cappuccino
+June,June  7:22:02 PM,card,ANON-0000-0000-0154,37.72,Cappuccino
+June,June  7:23:16 PM,card,ANON-0000-0000-0154,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0310,27.92,Cortado
+June,June  7:45:17 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+June,June  7:45:17 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+June,June  7:45:17 PM,card,ANON-0000-0000-0311,37.72,Latte
+June,June  7:45:17 PM,card,ANON-0000-0000-0141,27.92,Cortado
+June,June  7:29:17 PM,card,ANON-0000-0000-0312,27.92,Americano
+June,June  7:29:17 PM,card,ANON-0000-0000-0313,37.72,Latte
+June,June  8:34:17 PM,card,ANON-0000-0000-0313,37.72,Cocoa
+June,June  8:34:17 PM,card,ANON-0000-0000-0164,32.82,Americano with Milk
+June,June  8:34:17 PM,card,ANON-0000-0000-0153,37.72,Cappuccino
+June,June  8:34:17 PM,card,ANON-0000-0000-0153,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0192,37.72,Cappuccino
+June,June  3:39:48 PM,card,ANON-0000-0000-0192,32.82,Americano with Milk
+June,June  4:19:03 PM,card,ANON-0000-0000-0097,37.72,Latte
+June,June  6:39:04 PM,card,ANON-0000-0000-0314,37.72,Latte
+June,June  7:22:02 PM,card,ANON-0000-0000-0314,37.72,Latte
+June,June  7:23:16 PM,card,ANON-0000-0000-0257,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0009,37.72,Latte
+June,June  7:45:17 PM,card,ANON-0000-0000-0009,32.82,Americano with Milk
+June,June  7:45:17 PM,card,ANON-0000-0000-0311,37.72,Latte
+June,June  7:45:17 PM,card,ANON-0000-0000-0315,27.92,Americano
+June,June  7:45:17 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0316,23.02,Espresso
+June,June  8:34:17 PM,card,ANON-0000-0000-0009,37.72,Latte
+June,June  8:34:17 PM,card,ANON-0000-0000-0154,37.72,Cappuccino
+June,June  8:34:17 PM,card,ANON-0000-0000-0154,37.72,Cappuccino
+June,June  8:34:17 PM,card,ANON-0000-0000-0180,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0180,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0180,27.92,Americano
+June,June  7:22:02 PM,card,ANON-0000-0000-0311,32.82,Americano with Milk
+June,June  7:23:16 PM,card,ANON-0000-0000-0141,27.92,Cortado
+June,June  7:29:17 PM,card,ANON-0000-0000-0311,32.82,Americano with Milk
+June,June  7:45:17 PM,card,ANON-0000-0000-0317,32.82,Americano with Milk
+June,June  7:45:17 PM,card,ANON-0000-0000-0009,37.72,Latte
+June,June  7:45:17 PM,card,ANON-0000-0000-0318,37.72,Cappuccino
+June,June  7:45:17 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0319,37.72,Cappuccino
+June,June  8:34:17 PM,card,ANON-0000-0000-0320,37.72,Latte
+June,June  8:34:17 PM,card,ANON-0000-0000-0320,37.72,Cappuccino
+June,June  8:34:17 PM,card,ANON-0000-0000-0164,32.82,Americano with Milk
+June,June  8:34:17 PM,card,ANON-0000-0000-0180,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0180,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0321,37.72,Latte
+June,June  3:39:48 PM,card,ANON-0000-0000-0203,37.72,Cappuccino
+June,June  4:19:03 PM,card,ANON-0000-0000-0203,37.72,Cappuccino
+June,June  6:39:04 PM,card,ANON-0000-0000-0322,37.72,Latte
+June,June  7:22:02 PM,card,ANON-0000-0000-0012,32.82,Americano with Milk
+June,June  7:23:16 PM,card,ANON-0000-0000-0040,32.82,Americano with Milk
+June,June  7:29:17 PM,card,ANON-0000-0000-0203,37.72,Cappuccino
+June,June  7:45:17 PM,card,ANON-0000-0000-0323,37.72,Latte
+June,June  7:45:17 PM,card,ANON-0000-0000-0324,23.02,Espresso
+June,June  7:45:17 PM,card,ANON-0000-0000-0325,27.92,Americano
+June,June  7:45:17 PM,card,ANON-0000-0000-0009,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0009,37.72,Cappuccino
+June,June  7:29:17 PM,card,ANON-0000-0000-0206,32.82,Americano with Milk
+June,June  1:48:15 PM,card,ANON-0000-0000-0326,32.82,Americano with Milk
+June,June  3:39:48 PM,card,ANON-0000-0000-0327,27.92,Cortado
+June,June  4:19:03 PM,card,ANON-0000-0000-0328,32.82,Americano with Milk
+June,June  6:39:04 PM,card,ANON-0000-0000-0329,37.72,Cappuccino
+June,June  7:22:02 PM,card,ANON-0000-0000-0141,27.92,Cortado
+June,June  7:23:16 PM,card,ANON-0000-0000-0274,23.02,Espresso
+June,June  7:29:17 PM,card,ANON-0000-0000-0330,32.82,Americano with Milk
+June,June  10:15:51 AM,card,ANON-0000-0000-0331,37.72,Latte
+June,June  12:19:23 PM,card,ANON-0000-0000-0332,37.72,Cappuccino
+June,June  12:20:18 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
+June,June  1:46:33 PM,card,ANON-0000-0000-0333,32.82,Americano with Milk
+June,June  1:48:15 PM,card,ANON-0000-0000-0333,32.82,Americano with Milk
+June,June  3:39:48 PM,card,ANON-0000-0000-0334,37.72,Cappuccino
+June,June  4:19:03 PM,card,ANON-0000-0000-0334,37.72,Cappuccino
+June,June  6:39:04 PM,card,ANON-0000-0000-0335,37.72,Cappuccino
+June,June  7:22:02 PM,card,ANON-0000-0000-0335,37.72,Hot Chocolate
+June,June  7:23:16 PM,card,ANON-0000-0000-0009,37.72,Latte
+June,June  7:29:17 PM,card,ANON-0000-0000-0336,37.72,Latte
+June,June  7:45:17 PM,card,ANON-0000-0000-0337,23.02,Espresso
+June,June  7:45:17 PM,card,ANON-0000-0000-0009,37.72,Hot Chocolate
+June,June  7:45:17 PM,card,ANON-0000-0000-0097,32.82,Americano with Milk
